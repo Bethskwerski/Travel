@@ -18,7 +18,7 @@ Set some common styles for the body of the page
 body{
 	background-color:black;
 	color:white;
-	font-family:"helvetica";
+	font-family:helvetica;
 	font-size:16px;
 }
 
@@ -60,7 +60,8 @@ style the elements with a class of page-row
 	width:100%;
 	clear: both;
 	padding: 5%;
-	margin:2% 0 2% 0;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 /*
@@ -173,7 +174,7 @@ style the element with the id of hero
 /*
  target the element with the id of navbare and float it to the right
 */
-#navbar ul{
+#navbar{
 	float:right;
 }
 
@@ -184,7 +185,7 @@ style the element with the id of hero
   - remove bullets from the unordered list
 */
 }
-#nav-list li a{
+#nav-list{
 	list-style-type: none;
 	margin:0px;
 	padding:0px;
@@ -197,7 +198,7 @@ style the element with the id of hero
   - left and right padding of 15px
 */
 .nav-link{
-	display: inline-block;
+	display: inline;
 	padding:5px 15px 5px 15px;
 }
 
@@ -243,7 +244,7 @@ style the element with the id of hero
 */
 
 table{
-	border:2px black solid;
+	border:2px solid black ;
 	width:100%;
 	border-collapse: collapse;
 }
@@ -253,7 +254,7 @@ table{
   - give a 2px black solid border to the table
 */
 tr, td, th{
-	border:2px black solid;
+	border:2px solid black;
 }
 
 
@@ -283,7 +284,7 @@ th{
  target the h3 element within the element with the id of travel-table
   - center align the text
 */
-h3{
+#travel-table h3{
 	text-align:center;
 }
 
